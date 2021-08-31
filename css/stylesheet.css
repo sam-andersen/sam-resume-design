@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sanchez', arial, sans-sarif; 
+}
+
+body{
+    font-family: 'lato', arial, sans-sarif; 
+    color: white;
+}
+
+.d-block {
+    padding: 2rem;
+}
+
+.collapse{
+    color: B5838D;
+}
+
+.centernav {
+    justify-content: center;
+}
+
+
+.nav-link{
+    color: B5838D;
+    font-family: 'Sanchez', arial, sans-sarif;
+}
+
+.nav-link:hover{
+    color: 6D6875;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav{
+    font-family: 'Sanchez', arial, sans-sarif;
+    color: B5838D;
+}
+
+.navbar {
+    padding-left: 3%;
+}
+
+.jumbotron{
+    background-color: B5838D;
+    text-align: center;
+    color: white;
+    padding: 5%
+}
+
+.container-fluid{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.col{
+    color: grey;
+}
+
+.icons {
+    margin: 15px;
+}
+
+.icons:hover {
+    margin: 15px;
+    animation: pulse 2s infinite;
+    background-color: white
+    border-radius 50%;
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
